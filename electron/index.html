@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YT Content Tracker - Electron</title>
+    <style>
+      body {
+        align-items: center;
+        background: #f4f6f8;
+        color: #17212b;
+        display: flex;
+        font-family: system-ui, sans-serif;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      main {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px #17212b18;
+        max-width: 520px;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      p {
+        color: #526170;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">YT Content Tracker</h1>
+      <p>Aplicacion inicial de escritorio con Electron.</p>
+      <p>Este espacio esta listo para agregar el seguimiento de contenido.</p>
+    </main>
+    <script>
+      document.getElementById("title").textContent = window.appInfo.name;
+    </script>
+  </body>
+</html>

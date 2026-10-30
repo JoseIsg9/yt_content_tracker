@@ -1,0 +1,13 @@
+{
+  "name": "yt-content-tracker-electron",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Electron starter for YT Content Tracker",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^40.0.0"
+  }
+}

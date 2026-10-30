@@ -1,0 +1,16 @@
+[package]
+name = "yt-content-tracker-tauri"
+version = "0.1.0"
+description = "Minimal Tauri starter for YT Content Tracker"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "yt_content_tracker_tauri_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
